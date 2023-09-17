@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Sorteio</title>
+        <meta name="description" content="Gere um número aleatório entre 1 e 100." />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&family=Roboto+Mono:wght@700&display=swap" rel="stylesheet" />
+        <link href="styles/style.css" rel="stylesheet" />
+    </head>
+    <body>
+        <div class="container">
+            <div class="flex-column">
+                <head class="flex-item">
+                    <hgroup class="align-center">
+                        <h1>Random Number</h1>
+                        <p class="color-secondary">Generate a random number between 1 and 100.</p>
+                    </hgroup>
+                </head>
+                <main class="flex-item">
+                    <div id="result" class="align-center font-display">0</div>
+                    <ul class="flex-item">
+                        <li><button id="start" class="button">Iniciar</button></li>
+                        <li><button id="stop" class="button">Parar</button></li>
+                        <li><button id="reset" class="button">Resetar</button></li>
+                    </ul>
+                </main>
+                <footer class="flex-item">
+                    <p class="align-center">Desenvolvido por <a href="/">coreteam.com.br</a></p>
+                </footer>
+            </div>
+        </div>
+        <script src="scripts/main.js"></script>
+    </body>
+</html>
